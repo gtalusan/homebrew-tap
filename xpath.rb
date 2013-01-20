@@ -10,5 +10,7 @@ class Xpath < Formula
     system "tar xf data.tar.gz"
     system "mkdir #{bin}"
     system "cp usr/bin/xpath #{bin}"
+    system "mkdir -p #{man1}"
+    system "cp usr/share/man/man1//xpath.1p.gz #{man1}"
   end
 end
