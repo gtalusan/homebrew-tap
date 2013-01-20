@@ -7,7 +7,7 @@ class Screenarrangement < Formula
 
   def install
     system "make release"
-	system "mkdir #{prefix}/bin"
-	system "cp build/Release/screenarrangement #{prefix}/bin"
+    system "mkdir #{prefix}/bin"
+    system "cp build/Release/screenarrangement #{prefix}/bin"
   end
 end
