@@ -7,4 +7,5 @@ Add this tap: `brew tap concept-not-found/tap`
 
 Available formulas:
  * `brew install screenarrangement`
+ * `brew install xpath`
 
